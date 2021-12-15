@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Python Glossary</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/static/css/styles.css" rel="stylesheet"/>
+    <link href="/static/css/custom.css" rel="stylesheet"/>
+    <link href="/static/css/newsletter.css" rel="stylesheet"/>
+
+</head>
+<body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+<script src="/static/js/scrollspy.min.js"></script>
+<script src="/static/js/jquery.easing.min.js"></script>
+<script src="/static/js/script.js"></script>
+
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-lg-5">
+        <a class="navbar-brand active" aria-current="page" href="Python%20Glossary.html">
+            <img src="/static/assets/internetelements/prjlogo.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">HOME</a></li>-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ url_for('pythontuttorial') }}"
+                       id="navbarDropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PYTHON TUTORIAL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{{ url_for('pythontuttorial') }}">Python Glossary</a>
+                        <a class="dropdown-item" href="{{ url_for('pylint') }}">Pylint</a>
+                        <a class="dropdown-item" href="{{ url_for('oopsconcepts') }}">Object Oriented Programming</a>
+                        <a class="dropdown-item" href="{{ url_for('AAATesting') }}">AAA Testing</a>
+                        <a class="dropdown-item" href="{{ url_for('SOLIDprinciples') }}">SOLID Principles</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('ecommerce') }}">E-COMMERCE</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('socialnetworking') }}">SOCIAL-NETWORKING</a>
+                </li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('searchengine') }}">SEARCH-ENGINE</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('calculator') }}">CALCULATOR</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('result') }}">RESULT</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<div class="container bg-grey mt-2">
+    <h5 class="display-6 text-center ">Calculator project developed for IS 601</h5>
+    <!--  <p class="lead"></p>-->
+</div>
+
+<!-- Page content-->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h2 class="fw-bolder mb-1">My Calculator</h2>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">Posted on December 12, 2021 by Sandeepa Jaladi.Images
+                        credits: <a
+                                href="https://www.pexels.com/">Pexels</a></div>
+                    <!-- Post categories-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>-->
+                </header>
+                <!-- Preview image figure-->
+
+                <!-- Post content-->
+                <section class="mb-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="img-fluid rounded mb-2" src="/static/assets/calc2.jpg" alt="..."/>
+
+                        </div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Calculator</h5>
+                            <p style="text-align:justify">In ISO -601, Web development , we learnt how to develop
+                                website using bootstrap . We also learnt programming with Python and working with
+                                Flask.Flask is a micro web framework written in Python
+                                .Here is our final project .The user should be able to input at least two numbers into a
+                                web form and select one of
+                                the arithmetic operations (addition, subtraction, multiplication, or division)
+                                The user information should be written to a CSV file when the form is submitted
+                                The user should be shown a results page that shows all of the calculations stored in the
+                                CSV file printed as a table
+                                There should be validation for empty values for the input fields </p>
+                            <!--                            <p>There are three layers – wires, cable and Wi-Fi, TCP/IP & ROUTING, HTTPS & DNS works together for seamless data transmission.</p>-->
+
+                        </div>
+                    </div>
+
+
+                </section>
+            </article>
+        </div>
+
+        <!-- Side widgets-->
+
+        <div class="col-lg-4 mt-4">
+
+
+            <div class="card mb-4 ">
+                <div class="card-header text-md-center text-center">Resources</div>
+                <div class="card-body">
+                    <div class="row ">
+                        <!--                        <div class="col-md-6">-->
+                        <!--                            <ul class="list-inline-item  mb-0">-->
+                        <p class="text-center"><a href="https://www.youtube.com/watch?v=Z1RJmh_OqeA&t=346s">Flask
+                            Beginner Tutorial</a></p>
+                        <p class="text-center"><a href="https://www.youtube.com/watch?v=qbnqNWXf_tU">Flask flash
+                            message</a></p>
+                        <p class="text-center"><a href="https://www.youtube.com/watch?v=IsuhCAptNbg&t=199s">Beautiful
+                            interactive tables</a></p>
+                        <!--                        </div>-->
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Categories widget-->
+
+            <!-- Side widget-->
+
+        </div>
+    </div>
+</div>
+<hr>
+<div class="container bg-grey mt-2" style="width: 700px">
+    <form class="row g-3" METHOD="post" action="http://localhost:5000/calculator">
+        <div class="mb-3">
+            <label for="formGroupExampleInput" class="form-label">First Number</label>
+            <input type="number" class="form-control" id="fnum1" name="fnum1" placeholder="Number1" required>
+        </div>
+        <div class="mb-3">
+            <label for="formGroupExampleInput2" class="form-label">Second Number</label>
+            <input type="number" class="form-control" id="fnum2" name="fnum2" placeholder="Number2" required>
+        </div>
+        <!--<div class="mb-3">
+          <label for="formGroupExampleInput2" class="form-label">Result</label>
+          <input type="text" id="result" name="result" class="form-control">
+        </div>-->
+        <div class="col-md-4">
+            <label for="inputState" class="form-label">Operation</label>
+            <select id="operat" name="operat" class="form-select">
+                <option selected>Choose...</option>
+                <option value="add">Addition</option>
+                <option value="sub">Subtraction</option>
+                <option value="mul">Multiplication</option>
+                <option value="div">Division</option>
+            </select>
+        </div>
+        <div class="col-12" >
+            <button type="submit" class="btn btn-primary" >Submit</button>
+        </div>
+    </form>
+</div>
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container ">
+        <p class="m-0 text-center text-white">Copyright &copy; Sandeepa Jaladi 2021</p>
+        <p class="m-0 text-center text-white">
+            <a href="https://github.com/sandeepajaladi/601project2/tree/master/601%20project%202/internethistory_project-master">Project
+                Repo</a><span></span> <a
+                href="https://validator.w3.org/check/referer"><img src="https://www.w3.org/Icons/valid-html401-blue"
+                                                                   alt=""></a></p>
+    </div>
+
+</footer>
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+<!--<script>
+
+$('#operat').on('change', function()
+{
+    var num1 = document.getElementById("fnum1").value;
+	var num2 = document.getElementById("fnum2").value;
+	if((num1 === '') && (num2 === '')){
+		alert("Number1 and Number2 values required");
+	} else if(num1 === '') {
+		alert("Number1 is required");
+	} if (num2 === ''){
+		alert("Number2 is required");
+	}
+	var op = $(this).val()
+	switch(op){
+	case 'add':
+			var sum = parseFloat(num1) + parseFloat(num2);
+			document.getElementById("result").value = sum;
+	case 'sub':
+			var sum = parseFloat(num1) - parseFloat(num2);
+			document.getElementById("result").value = sum;
+	case 'mul':
+			var sum = parseFloat(num1) * parseFloat(num2);
+			document.getElementById("result").value = sum;
+	case 'div':
+			var sum = parseFloat(num1) / parseFloat(num2);
+			document.getElementById("result").value = sum;
+	default:
+		alert("No Opeation Selected");
+	}
+	
+	});
+</script> -->
+</body>
+</html>

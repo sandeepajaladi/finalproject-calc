@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>AAA Testing</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/static/css/styles.css" rel="stylesheet"/>
+    <link href="/static/css/custom.css" rel="stylesheet"/>
+    <link href="/static/css/newsletter.css" rel="stylesheet"/>
+</head>
+<body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+<script src="/static/js/scrollspy.min.js"></script>
+<script src="/static/js/jquery.easing.min.js"></script>
+<script src="/static/js/script.js"></script>
+
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-lg-5">
+        <a class="navbar-brand active" aria-current="page" href="Python%20Glossary.html">
+            <img src="/static/assets/internetelements/prjlogo.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">HOME</a></li>-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ url_for('pythontuttorial') }}" id="navbarDropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PYTHON TUTORIAL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{{ url_for('pythontuttorial') }}">Python Glossary</a>
+                        <a class="dropdown-item" href="{{ url_for('pylint') }}">Pylint</a>
+                        <a class="dropdown-item" href="{{ url_for('oopsconcepts') }}">Object Oriented Programming</a>
+                        <a class="dropdown-item" href="{{ url_for('AAATesting') }}">AAA Testing</a>
+                        <a class="dropdown-item" href="{{ url_for('SOLIDprinciples') }}">SOLID Principles</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('ecommerce') }}">E-COMMERCE</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('socialnetworking') }}">SOCIAL-NETWORKING</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('searchengine') }}">SEARCH-ENGINE</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ url_for('calculator') }}">CALCULATOR</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('result') }}">RESULT</a></li>
+
+            </ul>
+
+        </div>
+    </div>
+</nav>
+<!-- Hero section-->
+<div class="container bg-grey mt-2">
+    <h5 class="display-6 text-center ">More people learned Python than French !</h5>
+    <!--  <p class="lead"></p>-->
+
+
+</div>
+
+<!-- Page content-->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h2 class="fw-bolder mb-1">AAA Testing</h2>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">Posted on December 12, 2021 by Sandeepa Jaladi. Images from <a
+                            href="https://www.CreativeCommons.org/">CreativeCommons</a></div>
+                    <!-- Post categories-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>-->
+                </header>
+                <!-- Preview image figure-->
+
+                <!-- Post content-->
+                <section class="mb-5">
+                    <div class="row">
+                        <div class="col-lg-5">
+                            <img class="img-fluid rounded mb-2" src="/static/assets/ecom_search_social/test2.jpg" alt="..."/>
+
+                        </div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Software Testing </h5>
+                            <p style="text-align:justify">Software Testing checks the actual
+                                software product matches expected requirements and to ensure that software product
+                                doesn't deviate from the requirements and is bug free.The purpose of software testing is
+                                to identify errors, any deviations from the
+                                actual requirements.Software Testing is very important because if
+                                any bugs or errors in the software, these need to be identified early and resolved
+                                before delivery of the software product. Properly tested software product ensures
+                                reliability, security and high performance which further results in time saving, cost
+                                effectiveness and customer satisfaction. </p>
+                            <!--
+                            <p>The internet elements are classified as hardware, software, protocols and connection medium.</p>-->
+                            <!--                            <p>There are three layers – wires, cable and Wi-Fi, TCP/IP & ROUTING, HTTPS & DNS works together for seamless data transmission.</p>-->
+                        </div>
+                    </div>
+                    <h5 class="font-weight-bold">Unit Testing</h5>
+
+                    <p style="text-align:justify">In UNIT TESTING every individual unit or
+                        component of the software is tested. The purpose is to validate that each unit of the software
+                        code performs as expected. Unit Testing is done during the development (coding phase) of an
+                        application by the developers. Unit Tests isolate a section of code and verify its correctness.
+                        A unit can be individual function, method, procedure, module, or object.Unit Testing is
+                        important because software developers sometimes reduce the time doing minimal unit testing as
+                        inappropriate unit testing leads to high cost Defect fixing during System
+                        Testing, Integration Testing and even Beta Testing after application is built. If proper unit
+                        testing is done in early development, then it saves time and money in the end.
+                    <h5 class="font-weight-bold">ARRANGE-ACT-ASSERT</h5>
+                    <p style="text-align:justify">Arrange-Act-Assert ,popularly known as the AAA testing is a great way
+                        to structure test cases. It
+                        describes the order of operations: Arrange inputs and targets. Arrange steps should set
+                        up the test case. It handles all of these operations at
+                        the start of the test. Act on the target behavior. Act steps should cover the main thing
+                        to be tested. This could be calling a function or method, calling a REST API, or
+                        interacting with a web page. Keep actions focused on the target behavior.</p>
+                    <p>Assert expected outcomes. Act steps should elicit some sort of
+                        response. Assert steps verify the goodness or badness of that response. Sometimes,
+                        assertions are as simple as checking numeric or string values. Other times, they may require
+                        checking multiple facets of a system. Assertions will ultimately determine if the test
+                        passes or fails.</p>
+                    <br>
+                    <p><b>Arrange-Act-Assert</b> is powerful because it is simple. It forces tests to focus on
+                        independent, individual behaviors. It separates setup actions from the main actions. It
+                        requires test to make verifications and not merely run through motions. Notice how the
+                        pattern is not Arrange-Act-Assert-Act-Assert – subsequent actions and assertions belong in
+                        separate tests! Arrange-Act-Assert is a great pattern to follow for writing good functional
+                        tests
+
+                        <!--                    <p class="fs-5 mb-4"></p>-->
+
+                    <hr>
+
+
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/AAAtest1.JPG" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">AAA Testing with Calculator</h5>
+                            <a class="Github link-Calculator Unit Testing"
+                               href="https://github.com/sandeepajaladi/sj235_calc/blob/main/tests/calculator_test.py">Github
+                                link-Calculator Unit Testing</a>
+                            <p style="text-align:justify">
+                                Here, let us take a very simple example of unit testing of addition function <br>
+                                <br>
+                                <code> def test_calculator_add_result():<br>
+                                    """testing calculator result """<br>
+                                    &nbsp; calc = Calculator()<br>
+                                    &nbsp; result = calc.add(1,2)<br>
+                                    &nbsp; assert result == 3 </code> <br>
+
+
+                            </p>
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p style="text-align:justify"> This is the code that we will test. The code is very simple, the
+                            class contains only addition function and it will always return the sum of the two numbers
+                            .Now, add one unit test application to the solution
+
+                            In the above example, if no parameters are passed then<br>
+
+                            assert calc.get_result()==0.<br>
+
+                            The actual program is the calculator folder but the tests are in the tests folder .It
+                            contains a series of tests to check that the operations performed by the calculator are
+                            correct
+                            The code that is checking the operation is in test folder<br>
+                            AAA testing is done by instating a class.<br>
+                            calc= Calculator()<br>
+
+                            Act by calling a method to be tested -performing the action of adding test<br>
+
+                            calc.add_number(4)<br>
+
+                            Assert that the results are correct.This actually tests the result <br>
+
+                            assert calc.result==4<br>
+                        <p>Here is another example . The git link to main function is </p>
+                        <a class="Github link-Calculator Unit Testing"
+                           href="https://github.com/sandeepajaladi/sj235_calc/blob/improved_calc/calculator/calculator.py">Github
+                            link-Calculator main program</a>
+                        <a class="Github link-Calculator Unit Testing"
+                           href="https://github.com/sandeepajaladi/sj235_calc/blob/improved_calc/tests/calculator_test.py">Github
+                            link-Calculator test folder</a><br>
+                        <br>
+                        <h5 class="font-weight-bold">AAA EXternal data for testing</h5>
+                        Let us now see, how to write a program to read from a csv file .We have a csv file that has
+                        column 1 and column 2 which have number1 and number2 values on which the arithmetic operations
+                        addition, subtraction, multiplication and division needs to be performed.We need to import
+                        pandas to read from the csv files.Let us look in to the simple code below.
+
+                        <code>
+                            import pandas as pd <br>
+                            datafile = pd.read_csv("Addition - Sheet1.csv")<br>
+
+                            datafile["addition"]=datafile["number1"] + datafile["number2"]<br>
+                            datafile["subtraction"]=datafile["number1"] + datafile["number2"]<br>
+                            datafile["multiplication"]=datafile["number1"] + datafile["number2"]<br>
+                            datafile["division"]=datafile["number1"] + datafile["number2"]<br>
+                            print(datafile)<br><br>
+                        </code>
+                        Let us take another example,refer to the snippet below.Here, we are passing the column values ,
+                        Addition, Subtraction,Mutiplication and Division in the attribute task list and we are looping
+                        through the attribute,tasklist aand we are performing the operation and storing the result in
+                        the csv file .We are creating a log file which writes the time stamp of each operation along
+                        with the file name.<br>
+                        <code>
+                            import pandas as pd<br>
+                            import logging<br>
+                            filename="Addition - Sheet1.csv"<br>
+                            df=pd.read-csv(("Addition- Sheet1.csv")<br>
+                            &nbsp; def arithmetic(taskList, df, filename):<br>
+
+                            &nbsp; &nbsp; for task in taskList:<br>
+                            &nbsp; &nbsp;; &nbsp; if task == 'Addition':<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; df[task] = df['Number 1'] + df['Number 2']<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; logging.info("Addition Complete for Input file
+                            {}".format(filename))<br>
+                            &nbsp; &nbsp; &nbsp; elif task == 'Subtraction':<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; df[task] = df['Number 1'] - df['Number 2']<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; logging.info("Subtraction Complete for Input file
+                            {}".format(filename))<br>
+                            &nbsp; &nbsp; &nbsp; elif task == 'Multiplication':<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; df[task] = df['Number 1'] * df['Number 2']<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; logging.info("Multiplication Complete for Input file
+                            {}".format(filename))<br>
+                            &nbsp; &nbsp; &nbsp; elif task == 'Division':<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; df[task] = df['Number 1'] / df['Number 2']<br>
+                            &nbsp; &nbsp; &nbsp; &nbsp; logging.info("Division Complete for Input file
+                            {}".format(filename))<br>
+
+                            &nbsp; &nbsp; &nbsp; &nbsp; return df</code><br>
+                        The below snippet creates a new file,calculations.log and writes the time stamp of the
+                        calculation performed<br>
+
+                        <code>log = 'calculations.log'
+                            logging.basicConfig(filename = log, level = logging.DEBUG, format = '%(asctime)s
+                            %(message)s', datefmt = "%d/%m/%Y %H:%
+                            f1 = arithmetic(['Subtraction', 'Addition', 'Multiplication', 'Division'], df,
+                            filename)</code><br>
+                        <img src="/static/assets/ecom_search_social/csv1.jpg" alt="..."/>
+
+                        Below is the AAA testing that is used to assert that the two values taken to perform the
+                        operation is equal to the result for the operation operated <br>
+
+
+                        <code>def test_addition(self):<br>
+                            &nbsp; test_data = CsvReader("Tests/Data/addition.csv").data<br>
+                            &nbsp; &nbsp; for row in test_data:<br>
+                            &nbsp; &nbsp; &nbsp; result = (row['Addition'])<br>
+                            &nbsp; &nbsp; &nbsp; self.assertEqual(self.arithmetic.addition(row['Value 1'], row['Value
+                            2']),
+                            Addition)<br>
+                            &nbsp; &nbsp; &nbsp; self.assertEqual(self.arithmetic.addition, Addition)</code>
+
+
+                    </div>
+
+                </section>
+            </article>
+        </div>
+
+        <!-- Side widgets-->
+        <div class="col-lg-4 mt-4">
+
+
+            <!-- Search widget-->
+            <div class="card mb-4">
+                <div class="card-header text-center">Resources</div>
+                <div class="card-body">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <!--                            <ul class="list-inline-item  mb-0">-->
+                            <p class="text-center"><a href="https://www.youtube.com/watch?v=sCthIEOaMI8">How to
+                                structure AAA Tests</a></p>
+                            <p class="text-center"><a
+                                    href="https://jamescooke.info/arrange-act-assert-pattern-for-python-developers.html">AAA
+                                pattern for Python</a></p>
+                            <p class="text-center"><a
+                                    href="https://automationpanda.com/2020/07/07/arrange-act-assert-a-pattern-for-writing-good-tests/">Automation
+                                Panda</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <!--                            <ul class="list-inline-item  mb-0">-->
+
+                            <p class="text-center"><a
+                                    href="https://freecontent.manning.com/making-better-unit-tests-part-1-the-aaa-pattern/">AAA
+                                Pattern</a></p>
+                            <p class="text-center"><a href="https://www.youtube.com/watch?v=ymA7FmWR-40">Unit Test</a>
+                            <p class="text-center"><a href="https://www.testim.io/blog/software-testing-basics/">Testing
+                                -Basics</a>
+                            </p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Categories widget-->
+
+
+        </div>
+    </div>
+</div>
+
+<!-- section End -->
+
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container ">
+        <!--        <p class="m-0 text-center text-white">Image Credit: <a href="https://www.CreativeCommons.org/">CreativeCommons</a></p>-->
+        <p class="m-0 text-center text-white">Copyright &copy; Sandeepa Jaladi 2021</p>
+        <p class="m-0 text-center text-white">
+            <a href="https://github.com/sandeepajaladi/601project2/tree/master/601%20project%202/internethistory_project-master">Project
+                Repo</a><span></span> <a
+                href="http://validator.w3.org/check/referer"><img src="https://www.w3.org/Icons/valid-html401-blue"
+                                                                  alt=""></a></p>
+
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="/static/js/scripts.js"></script>
+</body>
+</html>

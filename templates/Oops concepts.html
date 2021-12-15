@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Object Oriented Programming</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/static/css/styles.css" rel="stylesheet"/>
+    <link href="/static/css/custom.css" rel="stylesheet"/>
+    <link href="/static/css/newsletter.css" rel="stylesheet"/>
+</head>
+<body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+<script src="/static/js/scrollspy.min.js"></script>
+<script src="/static/js/jquery.easing.min.js"></script>
+<script src="/static/js/script.js"></script>
+
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-lg-5">
+        <a class="navbar-brand active" aria-current="page" href="Python%20Glossary.html">
+            <img src="/static/assets/internetelements/prjlogo.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">HOME</a></li>-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ url_for('pythontuttorial') }}" id="navbarDropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PYTHON TUTORIAL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{{ url_for('pythontuttorial') }}">Python Glossary</a>
+                        <a class="dropdown-item" href="{{ url_for('pylint') }}">Pylint</a>
+                        <a class="dropdown-item" href="{{ url_for('oopsconcepts') }}">Object Oriented Programming</a>
+                        <a class="dropdown-item" href="{{ url_for('AAATesting') }}">AAA Testing</a>
+                        <a class="dropdown-item" href="{{ url_for('SOLIDprinciples') }}">SOLID Principles</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('ecommerce') }}">E-COMMERCE</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('socialnetworking') }}">SOCIAL-NETWORKING</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('searchengine') }}">SEARCH-ENGINE</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ url_for('calculator') }}">CALCULATOR</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('result') }}">RESULT</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Hero section-->
+<div class="container bg-grey mt-2">
+    <h5 class="display-6 text-center ">The four pillars of Object oriented programming</h5>
+    <!--  <p class="lead"></p>-->
+
+
+</div>
+
+<!-- Page content-->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h2 class="fw-bolder mb-1">Object Oriented Programming-Concepts</h2>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">Posted on December 12, 2021 by Sandeepa Jaladi. Images from <a
+                            href="https://www.educba.org/">educba</a>, <a
+                            href="https://www.edureka.org/">edureka</a>,<a href="https://www.GeeksforGeeks.com/">GeeksforGeeks</a>
+                    </div>
+                    <!-- Post categories-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>-->
+                </header>
+                <!-- Preview image figure-->
+
+                <!-- Post content-->
+                <section class="mb-5">
+
+
+                    <!--Page 2-->
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/encapsulation.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Encapsulation</h5>
+                            <p style="text-align:justify">Encapsulation is one of the fundamental concepts in
+                                object-oriented programming (OOP). Encapsulation is the packing of data and functions
+                                that work on that data within a single object. By doing so, you can hide the internal
+                                state of the object from the outside. This is known as information hiding.
+
+                                A class is an example of encapsulation. A class bundles data and methods into a single
+                                unit. And a class provides the access to its attributes via methods.
+
+                                The idea of information hiding is that if you have an attribute that isn’t visible to
+                                the outside, you can control the access to its value to make sure your object is always
+                                has a valid state. </p>
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p>It describes the idea of wrapping data and the methods that work on data within one unit.
+                            This puts restrictions on accessing variables and methods directly and can prevent the
+                            accidental modification of data. To prevent accidental change, an object’s variable can only
+                            be changed by an object’s method. Those types of variables are known as private variable. A
+                            class is an example of encapsulation as it encapsulates all the data that is member
+                            functions, variables, etc.
+
+                            We are restricting the methods or variables in that class
+
+                            Let us take the example of calculator to demonstrate encapsulation<br><br>
+
+                            <code>class Calculator:<br>
+                                &nbsp; def __init__(self,number1,number2)<br>
+                                &nbsp; &nbsp; self.number1=number1<br>
+                                &nbsp; &nbsp; self.number2=number2<br>
+                                &nbsp; def add(self)<br>
+                                &nbsp; &nbsp; return self.number1 + self.number2<br>
+                                &nbsp; ob1=Calculator(3,4)<br>
+                                &nbsp; ob.add()</code><br><br>
+
+                            Now when you run this program ,it will return an output of 7
+
+                            Now, if we make the add method private .By convention, you can define a private attribute by
+                            prefixing a single underscore (_):<br><br>
+
+                            <code>class Calculator:<br>
+                                &nbsp; def __init__(self,number1,number2)<br>
+                                &nbsp; &nbsp; self.number1=number1<br>
+                                &nbsp; &nbsp; self.number2=number2<br>
+                                &nbsp; def __add(self)<br>
+                                &nbsp; &nbsp; return self.number1 + self.number2<br>
+                                &nbsp; ob1=Calculator(3,4)<br>
+                                &nbsp; ob.add()</code><br><br>
+
+                            Now, we cannot access the add method ,outside the class in ob.add().The code would throw an
+                            error saying 'Calculator object has no attribute 'add'<br>
+                            Below is the Git hub link to the Calculator Program <br>
+                            <a href="https://github.com/sandeepajaladi/sj235_calc">Git hub link to Calculator
+                                Program </a><br>
+                            where we define the variables and the methods inside the class
+
+
+                        </p>
+                    </div>
+                    <hr>
+
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/polymorphism.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Polymorphism</h5>
+                            <p style="text-align:justify">
+                                Polymorphism is a very important concept in programming.The word polymorphism literally
+                                means having many forms. It refers to the use of a single type entity (method, operator
+                                or object) to represent different types in different scenarios.In Python, Polymorphism
+                                lets us define methods in the child class that have the same name as the methods in the
+                                parent class.However, it is possible to modify a method in a child class that it has
+                                inherited from the parent class. </p>
+                        </div>
+                        <p style="text-align:justify">This is particularly useful in cases where the method
+                            inherited from the parent class does not quite fit the child class. In such cases, we
+                            re-implement the method in the child class. This process of re-implementing a method in
+                            the child class is known as Method Overriding.Let us understand the concept of Polymorphism,
+                            with a simple
+                            example
+                            Arithmetic operator
+
+                            Arithmetic operator is normally used to add two numbers <br><br>
+
+                            <code> num1=10<br>
+                                num2 =15<br>
+                                result= num1 + num2</code><br><br>
+
+                            Here the program returns 25
+
+                            We can use the same arithmetic operator to concatenate two strings<br><br>
+
+
+                            <code>str1 = "Polymorphism"<br>
+                                str2 = "Tutorial"<br>
+                                print(str1+" "+str2)</code><br><br>
+                            This would give us an output of "Polymorphism Tutorial"
+
+
+                            Let us take another example, to demonstrate Function Polymorphism
+
+                            There a few functions in Pythons that are compatible to run with multiple data types
+
+                            # A simple Python function to demonstrate
+                            # Polymorphism<br>
+
+                            <code>def add(x, y, z = 0):<br>
+                                &nbsp; return x + y+z<br>
+
+                                # Driver code<br>
+                                print(add(2, 3))<br>
+                                print(add(2, 3, 4))<br></code><br>
+                            If we look at our example of th Calculator, the Git hublink is given below<br><br>
+                            <a href="https://github.com/sandeepajaladi/sj235_calc/blob/improved_calc/calculator/calculator.py">Git
+                                hub link to the Improved Calculator Program </a><br><br>
+
+
+                            we use the same function to create an addition ,subtraction,multiplication and division
+                            objects using the factory we created on the calculation class<br><br>
+
+
+                            <code>Calculator.add_calculation_to_history(addition)<br>
+
+                                Calculator.add_calculation_to_history(subtraction)</code><br>
+
+                        </p>
+                    </div>
+                    <hr>
+
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/inheritance.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Inheritance </h5>
+                            <p style="text-align:justify">Inheritance allows us to define a class that inherits all the
+                                methods and properties from another class.
+
+                                Parent class is the class being inherited from, also called base class.
+
+                                Child class is the class that inherits from another class, also called derived class.The
+                                benefits of inheritance are:
+
+
+                                It represents real-world relationships well.
+                                It provides reusability of a code. We don’t have to write the same code again and again.
+                            </p>
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p style="text-align:justify">
+                        <p>Also, it allows us to add more features to a class without modifying it.
+                            It is transitive in nature, which means that if class B inherits from another class A, then
+                            all the subclasses of B would automatically inherit from class A.ere ,let us first, see a
+                            very basic example of Parent class i.e. Employee which has printname method that would print
+                            firstname and last name.The child class Employee in herits the proerty of the parent class,
+                            Employee </p><code>class Employee:<br>
+                        &nbsp; def __init__(self, fname, lname):<br>
+                        &nbsp; &nbsp; self.firstname = fname<br>
+                        &nbsp; &nbsp; self.lastname = lname<br>
+
+                        &nbsp; def printname(self):<br>
+                        &nbsp; &nbsp; print(self.firstname, self.lastname)<br></code><br>
+
+                        Create a child class, Employee<br><br>
+                        <code>x=class Professor(Employee)<br>
+                            print (x)</code><br>
+
+                        Create another child class,Teaching Assistant<br>
+                        <code>x=class Teaching Assitant(Employee)<br>
+                            print (x)</code><br>
+                        Let us understand how inheritance is demonstrated in our example, Calculator. Please find the
+                        link below to the Git hub
+
+                        <a href="https://github.com/sandeepajaladi/sj235_calc/tree/improved_calc">Git hub link to
+                            Calculator demonstrating Inheritance </a><br>
+                        In this program , below is our Calculation class which is our base class<br>
+
+                        """This is our calculation base class / Abstract Class"""<br><br>
+                        <code> class Calculation:<br>
+                            """Base class for calculation """
+                            #contstructor and it is the first function called when an object of the class is
+                            instantiated<br>
+                            &nbsp; def __init__(self,value_a, value_b):<br>
+                            """Initiate and encapsulate the values"""<br>
+                            &nbsp; &nbsp; self.value_a = value_a<br>
+                            &nbsp; &nbsp; self.value_b = value_b<br>
+                            # Class Factory Method bound to the class and not the instance of the class<br>
+                            @classmethod<br>
+                            &nbsp; def create(cls, value_a, value_b):<br>
+                            """ Clear function"""<br>
+                            &nbsp; return cls(value_a,value_b)</code><br>
+
+                        Addition is our child class that inherits the values from the base class Calculation
+
+
+                        In addition.py<br>
+
+                        """Addition calculation that inherits value A and value B from the calculation class"""<br><br>
+
+                        <code>from calc.calculation import Calculation<br>
+
+                            #This is how you extend the Addition class with the Calculation<br>
+                            class Addition(Calculation):<br>
+                            """The addition class has one method to get the result of the the calculation A and B come
+                            from<br>
+                            the calculation parent class"""<br>
+                            &nbsp; def get_result(self):<br>
+                            """Returns the result of addition function"""<br>
+                            &nbsp; &nbsp; return self.value_a + self.value_b<br></code>
+                    </div>
+                    <hr>
+
+                    <!--                    <h5 class="fw-bolder mb-4 mt-2">DNS</h5>-->
+                    <div class="row ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/abstraction.JPG" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Abstraction </h5>
+                            <p style="text-align:justify">Abstraction is used to hide the internal functionality of the
+                                function from the users. The users only interact with the basic implementation of the
+                                function, but inner working is hidden.In Python, an abstraction is used to hide the
+                                irrelevant data/class in order to reduce the complexity. It also enhances the
+                                application efficiency.
+                                In Python, abstraction can be achieved by using abstract classes and interfaces.A class
+                                that consists of one or more abstract method is called the abstract class.
+                            </p>
+                            <!--                            <p>The internet is an architecture or design philosophy expressed in well-known rules or standards called as Internet Protocol. All devices have unique number known as IP address. IPv4 is an IP version widely used to identify devices on a network using an addressing system. It uses a 32-bit address scheme to store 2^32 addresses which is more than 4 billion addresses. </p>-->
+
+                        </div>
+                        <p>Abstract methods do not contain their implementation. Abstract class can be inherited by the
+                            subclass and abstract method gets its definition in the subclass. Abstraction classes
+                            are meant to be the blueprint of the other class. An abstract class can be useful when
+                            we are designing large functions. An abstract class is also helpful to provide the
+                            standard interface for different implementations of components.Abstract Base Classes
+                            An abstract base class is the common application program of the interface for a set of
+                            subclasses. It can be used by the third-party, which will provide the implementations such
+                            as with plugins. It is also beneficial when we work with the large code-base hard to
+                            remember all the classes</p>
+                        <p>Unlike the other high-level language, Python doesn't provide the abstract class itself. We
+                            need to import the abc module, which provides the base for defining Abstract Base classes
+                            (ABC). The ABC works by decorating methods of the base class as abstract. It registers
+                            concrete classes as the implementation of the abstract base. We use the @abstractmethod
+                            decorator to define an abstract method or if we don't provide the definition to the method,
+                            it automatically becomes the abstract method. Let's understand the following example.#
+                            Python program to define
+                            # abstract class
+
+                            <code>from abc import ABC<br>
+
+                                class Calculation(ABC): <br>
+
+                                # abstract method <br>
+                                &nbsp; def operation(self,number1,number2): <br>
+                                &nbsp; &nbsp; self.number1=number1<br>
+                                &nbsp; &nbsp; self.number2=number2 <br>
+                                pass <br><br>
+
+                                class Addition(Calculation): <br>
+
+
+                                &nbsp; def add(self,number1,number2): <br>
+                                &nbsp; &nbsp; return number1+number2 <br>
+
+                                class Subtraction(Calculation):<br>
+                                &nbsp; def subtract(self): <br>
+                                &nbsp; &nbsp; return number1+number2 <br><br>
+
+                                class Multiplication(Calculation): <br>
+                                &nbsp; def multiplicy(self): <br>
+                                &nbsp; &nbsp; return number1*number2 <br><br>
+
+
+                                # Driver code <br>
+                                ob1= Addition() <br>
+                                ob1.operations(4,2) <br>
+
+                                ob2= Subtraction() <br>
+                                ob2.operation(3,5) </code><br>
+                            This is also explained in the below git hub link<br>
+                            <a href="https://github.com/sandeepajaladi/calc_multiarg">Git hub link </a></p>
+                        <!--                        <p>DNS servers translate requests for names into IP addresses, controlling which server an end user will reach when they type a domain name into their web browser.</p>-->
+                    </div>
+
+                </section>
+            </article>
+        </div>
+
+        <!-- Side widgets-->
+
+        <div class="col-lg-4 mt-4">
+
+
+            <div class="card mb-4 ">
+                <div class="card-header text-md-center text-center">Resources</div>
+                <div class="card-body">
+                    <div class="row ">
+                        <!--                        <div class="col-md-6">-->
+                        <!--                            <ul class="list-inline-item  mb-0">-->
+                        <p class="text-center"><a
+                                href="https://www.youtube.com/watch?v=TFLo9m0jFEg">Python-Encapsulation Tutorial </a>
+                        </p>
+                        <p class="text-center"><a href="https://www.youtube.com/watch?v=C8qE3mKiBrQ">Inheritance in
+                            Python</a></p>
+                        <p class="text-center"><a href="https://www.youtube.com/watch?v=KVmmJNy-ZuI">
+                            Python-Polymorphism</a></p>
+                        <p class="text-center"><a href="https://www.youtube.com/watch?v=OEb8acFjjKQ">
+                            Python-Abstraction</a></p>
+                        <!--                        </div>-->
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Categories widget-->
+
+            <!-- Side widget-->
+
+        </div>
+    </div>
+</div>
+
+<!-- section End -->
+
+<!-- Footer-->
+<footer class="py-5  bg-dark">
+    <div class="container"><p class="m-0 text-center text-white">Copyright &copy; Sandeepa Jaladi 2021</p>
+        <p class="m-0 text-center text-white">
+            <a href="https://github.com/sandeepajaladi/601project2/tree/master/601%20project%202/internethistory_project-master">Project
+                Repo</a><span></span> <a
+                href="http://validator.w3.org/check/referer"><img src="https://www.w3.org/Icons/valid-html401-blue"
+                                                                  alt=""></a></p>
+
+    </div>
+</footer>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="../js/scripts.js"></script>
+</body>
+</html>

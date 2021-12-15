@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+    <title>Python Glossary</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="/static/assets/favicon.ico"/>
+    <!-- Bootstrap icons-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet"/>
+    <!--    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet" />-->
+    <!--    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">-->
+    <!--    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>-->
+
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="/static/css/styles.css" rel="stylesheet"/>
+    <link href="/static/css/custom.css" rel="stylesheet"/>
+    <link href="/static/css/newsletter.css" rel="stylesheet"/>
+</head>
+<body>
+<script src="/static/js/jquery.min.js"></script>
+<script src="/static/js/bootstrap.bundle.min.js"></script>
+<script src="/static/js/scrollspy.min.js"></script>
+<script src="/static/js/jquery.easing.min.js"></script>
+<script src="/static/js/script.js"></script>
+
+<!-- Responsive navbar-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container px-lg-5">
+        <a class="navbar-brand active" aria-current="page" href="Python Glossary.html">
+            <img src="/static/assets/internetelements/prjlogo.jpg" alt="">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+                class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <!--                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="#!">HOME</a></li>-->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="{{ url_for('pythontuttorial') }}" id="navbarDropdownMenuLink"
+                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        PYTHON TUTORIAL
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="{{ url_for('pythontuttorial') }}">Python Glossary</a>
+                        <a class="dropdown-item" href="{{ url_for('pylint') }}">Pylint</a>
+                        <a class="dropdown-item" href="{{ url_for('oopsconcepts') }}">Object Oriented Programming</a>
+                        <a class="dropdown-item" href="{{ url_for('AAATesting') }}">AAA Testing</a>
+                        <a class="dropdown-item" href="{{ url_for('SOLIDprinciples') }}">SOLID Principles</a>
+                    </div>
+                </li>
+
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('ecommerce') }}">E-COMMERCE</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('socialnetworking') }}">SOCIAL-NETWORKING</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('searchengine') }}">SEARCH-ENGINE</a></li>
+				<li class="nav-item"><a class="nav-link" href="{{ url_for('calculator') }}">CALCULATOR</a></li>
+                <li class="nav-item"><a class="nav-link" href="{{ url_for('result') }}">RESULT</a></li>
+
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Hero section-->
+<div class="container bg-grey mt-2">
+    <h5 class="display-6 text-center ">Python was named after a TV show!</h5>
+    <!--  <p class="lead"></p>-->
+
+
+</div>
+
+<!-- Page content-->
+
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-lg-8">
+            <!-- Post content-->
+            <article>
+                <!-- Post header-->
+                <header class="mb-4">
+                    <!-- Post title-->
+                    <h2 class="fw-bolder mb-1">Python Glossary</h2>
+                    <!-- Post meta content-->
+                    <div class="text-muted fst-italic mb-2">Posted on December 12, 2021 by Sandeepa Jaladi. Images from <a
+                            href="https://www.CreativeCommons.org/">CreativeCommons</a></div>
+                    <!-- Post categories-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Web Design</a>-->
+                    <!--                    <a class="badge bg-secondary text-decoration-none link-light" href="#!">Freebies</a>-->
+                </header>
+                <!-- Preview image figure-->
+
+                <!-- Post content-->
+                <section class="mb-5">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img class="img-fluid rounded mb-2" src="/static/assets/ecom_search_social/python.jpg" alt="..."/>
+
+                        </div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Key Terms - Beginners Tutorial</h5>
+                            <p class="text-justify">
+                            <p><b>1) Factory </b>:Factory method is a creational design pattern which solves the
+                                problem of creating product objects without specifying their concrete classes.
+                                It defines a method, which should be used for creating objects instead of direct
+                                constructor
+                                call (new operator). Subclasses can override this method to change the class of objects
+                                that
+                                will be created.</p>
+
+                            <p><b>2)Instantiation</b> : Instantiating a class is creating a copy of the class which
+                                inherits all class variables and methods. </p>
+
+
+                            <!--                            <p>The internet elements are classified as hardware, software, protocols and connection medium.</p>-->
+                            <!--                            <p>There are three layers – wires, cable and Wi-Fi, TCP/IP & ROUTING, HTTPS & DNS works together for seamless data transmission.</p>-->
+                        </div>
+                    </div>
+                    <p class="text-justify">
+                    <p>
+                    <p>Instantiating a class in Python is to instantiate a class, we simply call the class as if it were
+                        a function, passing the arguments that the __init__ method defines. The return value will be the
+                        newly created object. Example<br>
+                        <code>class Foo():<br>
+                            &nbsp; def __init__(self,x,y):<br>
+                            &nbsp; &nbsp; print x+y <br>
+                            &nbsp; &nbsp; f = Foo(3,4)</code>
+                    <p><b>3) Object</b> :Object is a member or an "instance" of a class. An object has a state in which
+                        all of its properties have values that you either explicitly define or that are defined by
+                        default settings.</p>
+
+                    <p><b>4)Class</b>: A Class is a user-defined data-type which has data members and member
+                        functions.Data members are the data variables and member functions are the functions used to
+                        manipulate these variables and together these data members and member functions define the
+                        properties and behaviour of the objects in a Class.
+                        If we take the example of class Car, the data member will be speed limit, mileage etc and member
+                        functions can apply brakes, increase speed etc.</p>
+
+                    <p><b>5)Namespace</b>:A namespace is a system that has a unique name for each and every object in
+                        Python. An object might be a variable or a method. Python itself maintains a namespace in the
+                        form of a Python dictionary.A namespace is a collection of currently defined symbolic names
+                        along with information about the object that each name references. You can think of a namespace
+                        as a dictionary in which the keys are the object names and the values are the objects
+                        themselves. Each key-value pair maps a name to its corresponding object.There are four types of
+                        namespaces:<br>
+                        Built-In<br>
+                        Global<br>
+                        Enclosing<br>
+                        Local.</p>
+                    <p><b>6)Constructor</b> : Each time an object is created a method is called and that method is named
+                        the constructor .The constructor is created with the function init. As parameter we write the
+                        self keyword, which refers to itself (the object). A constructor is called if you create an
+                        object. In the constructor you can set variables and call methods.Constructors are generally
+                        used for instantiating an object. The task of constructors is to initialize(assign values) to
+                        the data members of the class when an object of the class is created. In Python the __init__()
+                        method is called the constructor and is always called when an object is created.<br>
+
+                        <code>Syntax of constructor declaration :<br>
+                            def __init__(self):<br>
+                            # body of the constructor</code> <br></p>
+
+
+                    <p class="text-justify">
+                    <p><b>7)Fixture</b> : Fixtures are functions, which will run before each test function to which it
+                        is applied. Fixtures are used to feed some data to the tests such as database connections, URLs
+                        to test and some sort of input data. Therefore, instead of running the same code for every test,
+                        we can attach fixture function to the tests and it will run and return the data to the test
+                        before executing each test.</p>
+
+                    A function is marked as a fixture by −<br>
+
+                    <code> @pytest.fixture.</code>
+                    <!--                    <p class="fs-5 mb-4"></p>-->
+
+                    <hr>
+
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/python3.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Glossary</h5>
+                            <p><b>8)Type hint</b> : Type hinting is a formal solution to statically indicate the type of
+                                a value within your Python code. It was specified in PEP 484 and introduced in Python
+                                3.5.
+                                It provides an way to optionally annotate the types of Python functions, arguments, and
+                                variables in a way that can be used by various tools.
+
+                            <p><b> 9) Type cast</b> : In Explicit Type Conversion, users convert the data type of an
+                                object to required data type. We use the predefined functions like int(), float(),
+                                str(), etc to perform explicit type conversion.This type of conversion is also called
+                                typecasting because the user casts (changes) the data type of the objects.</p>
+
+                            <code>Syntax :<br>
+                                required_datatype (expression)</code> <br>
+
+
+                            Explicit Type Conversion is also called Type Casting, the data types of objects are
+                            converted using predefined functions by the user.
+
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p></p>
+                    </div>
+                    <hr>
+
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/python6.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Glossary</h5>
+                            <p class="text-justify">
+                            <p><b>10)Unit test</b>:A unit test is a way of testing a unit - the smallest piece of code
+                                that can be logically isolated in a system. In most programming languages, that is a
+                                function, a subroutine, a method or property. Generally, when the development process is
+                                complete, the developer codes criteria, or the results that are known to be potentially
+                                practical and useful, into the test script to verify a particular unit's correctness.The
+                                unit test framework in Python is called unittest, which comes packaged with Python.
+
+                                Unit testing makes your code future proof since you anticipate the cases where your code
+                                could potentially fail or produce a bug. Though you cannot predict all of the cases, you
+                                still address most of them.</p>
+
+
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p class="text-justify"><b>11)Class method</b> :A class method is a method which is bound to the
+                            class and not the object of the class. They have the access to the state of the class as it
+                            takes a class parameter that points to the class and not the object instance. It can modify
+                            a class state that would apply across all the instances of the class.
+                            The classmethod() is an inbuilt function in Python, which returns a class method for a given
+                            function.<br>
+
+                            Syntax: classmethod(function) </p>
+                    </div>
+                    <hr>
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/python5.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Glossary</h5>
+                            <p class="text-justify">
+                            <p><b>12)Facade</b>:Facade is a structural design pattern that provides a simplified (but
+                                limited) interface to a complex system of classes, library or framework.While Facade
+                                decreases the overall complexity of the application, it also helps to move unwanted
+                                dependencies to one placeFacade defines a higher-level interface that makes the
+                                subsystem easier to use.
+                                The Facade Pattern is a structural design pattern. It provides a simplified interface to
+                                a set of other interfaces, abstractions and implementations within a system that may be
+                                full of complexity and/or tightly coupled
+                                .</p>
+
+
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p class="text-justify"><b>13)Design patterns used</b>:Design helps in making the code reusable
+                            and improves the transparency of the code .Design patterns make communication between
+                            designers more efficient.The different types of .The design patters are divided in to
+                            Creational ,structural and behavioural patterns.<br>
+
+                            <b>Structural :</b>
+                            (i)Adapter Method
+                            (ii)Bridge Method
+                            (iii)Composite Method
+                            (iv)Decorator Method
+                            (v)Facade Method
+                            (vi)Proxy Method
+                            (vii)FlyWeight Method<br>
+
+                            <b>Creational :</b> (i)Factory Method
+                            (ii)Abstract Factory Method
+                            (iii)Builder Method
+                            (iv)Prototype Method
+                            (v)Singleton Method<br>
+
+                            <b>Behavioural</b>
+                            (i) Chain of Responsibility Method
+                            (ii)Command Method
+                            (iii)Iterator Method
+                            (iv)Mediator Method
+                            (v)Memento Method
+                            (vi)Observer Method
+                            (vii)State Method
+                            (viii)Strategy Method
+                            (ix)Template Method
+                            (x)Visitor Method
+
+                        </p>
+                    </div>
+                    <hr>
+                    <div class="row  ">
+
+                        <div class="col-lg-6"><img class="img-fluid rounded mb-2 "
+                                                   src="/static/assets/ecom_search_social/python4.jpg" alt="..."/></div>
+                        <div class="col">
+                            <h5 class="font-weight-bold">Glossary</h5>
+                            <p class="text-justify">
+                            <p><b>14)Property method :</b>Method property:The property() method in Python provides an
+                                interface to instance attributes. It encapsulates instance attributes and provides a
+                                property, same as Java and C#.
+
+                                The property() method takes the get, set and delete methods as arguments and returns an
+                                object of the property class.
+
+                                .</p>
+
+
+                            <!--                            <p>IPv6 is the most recent version of the Internet Protocol. This new IP address version is being deployed to fulfil the need for more Internet addresses. It was aimed to resolve issues that are associated with IPv4. With 128-bit address space, it allows 340 undecillion unique address space. DNS and IPs are designed to scale.</p>-->
+                        </div>
+                        <p class="text-justify"><b>15)Inheritance :</b> Inheritance allows us to define a class that
+                            inherits all the methods and properties from another class.Parent class is the class being
+                            inherited from, also called base class.Child class is the class that inherits from another
+                            class, also called derived class.It is recommended to use the property decorator instead of
+                            the property() method.It is recommended to use the property decorator instead of the
+                            property() method.
+
+                            property(fget, fset, fdel, doc)<br>
+                            Parameters:<br>
+                            fget: (Optional) Function for getting the attribute value. Default value is none.<br>
+                            fset: (Optional) Function for setting the attribute value. Default value is none.<br>
+                            fdel: (Optional) Function for deleting the attribute value. Default value is none.<br>
+                            doc: (Optional) A string that contains the documentation. Default value is none.<br>
+                            Return Value:<br>
+                            Returns the property attribute from the given getter, setter, and deleter.
+
+
+                        </p>
+                    </div>
+
+                </section>
+            </article>
+        </div>
+
+        <!-- Side widgets-->
+        <div class="col-lg-4">
+
+            <!-- Side widget-->
+            <div class="card mb-4">
+                <!--                            <div class="">Side Widget</div>-->
+                <div class="card-header text-center header-colorize">Glossary</div>
+            </div>
+
+            <!-- Search widget-->
+            <div class="card mb-4">
+                <div class="card-header text-center">Resources</div>
+                <div class="card-body">
+                    <div class="row ">
+                        <div class="col-md-6">
+                            <!--                            <ul class="list-inline-item  mb-0">-->
+                            <p class="text-center"><a href="https://www.w3schools.com/python/python_ref_glossary.asp">Python
+                                w3schools</a></p>
+                            <p class="text-center"><a href="https://www.codecademy.com/articles/glossary-python">Python
+                                codeacademy</a></p>
+                            <p class="text-center"><a
+                                    href="https://data-flair.training/blogs/python-glossary/">Glossary</a></p>
+                        </div>
+                        <div class="col-md-6">
+                            <!--                            <ul class="list-inline-item  mb-0">-->
+                            <p class="text-center"><a href="geeksforgeeks.org/python-keywords/">Key words</a></p>
+                            <p class="text-center"><a href="https://www.javatpoint.com/python-data-types">Data types</a>
+                            </p>
+                            <p class="text-center"><a href="https://www.guru99.com/unit-testing-guide.html">Unit
+                                Test</a></p>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <!-- Categories widget-->
+
+
+        </div>
+    </div>
+</div>
+
+<!-- section End -->
+
+
+<!-- Footer-->
+<footer class="py-5 bg-dark">
+    <div class="container ">
+        <p class="m-0 text-center text-white">Copyright &copy; Sandeepa Jaladi 2021</p>
+        <p class="m-0 text-center text-white">
+            <a href="https://github.com/sandeepajaladi/601project2/tree/master/601%20project%202/internethistory_project-master">Project
+                Repo</a><span></span> <a
+                href="https://validator.w3.org/check/referer"><img src="https://www.w3.org/Icons/valid-html401-blue"
+                                                                   alt=""></a></p>
+
+    </div>
+
+</footer>
+
+<!-- Bootstrap core JS-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Core theme JS-->
+<script src="js/scripts.js"></script>
+</body>
+</html>
