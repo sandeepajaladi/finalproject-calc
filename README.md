@@ -1,2 +1,2 @@
-# finalproject-calc
+# Project 3
 Final calculator project
