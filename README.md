@@ -1,6 +1,6 @@
-# Project 3
-Final calculator project
+### Project 3 -Final calculator project
 
-Link to the youtube video 
+
+Below is the link to the recorded video uploadeed on  youtube video 
 
 https://youtu.be/Ua_oPuusK04
