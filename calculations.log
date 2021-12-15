@@ -1,0 +1,473 @@
+10/12/2021 07:15:09  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:15:09  * Restarting with stat
+10/12/2021 07:15:11  * Debugger is active!
+10/12/2021 07:15:11  * Debugger PIN: 937-685-206
+10/12/2021 07:15:12  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:15:25  * Restarting with stat
+10/12/2021 07:15:26  * Debugger is active!
+10/12/2021 07:15:26  * Debugger PIN: 937-685-206
+10/12/2021 07:15:27  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:15:31 127.0.0.1 - - [10/Dec/2021 07:15:31] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 Multiplication operation performed
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:15:42 127.0.0.1 - - [10/Dec/2021 07:15:42] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:19:05  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:19:06  * Restarting with stat
+10/12/2021 07:19:07  * Debugger is active!
+10/12/2021 07:19:07  * Debugger PIN: 937-685-206
+10/12/2021 07:19:08  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:19:18  * Restarting with stat
+10/12/2021 07:19:19  * Debugger is active!
+10/12/2021 07:19:19  * Debugger PIN: 937-685-206
+10/12/2021 07:19:20  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:19:24 127.0.0.1 - - [10/Dec/2021 07:19:24] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 Multiplication operation performed
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:19:34 127.0.0.1 - - [10/Dec/2021 07:19:34] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:24  * Restarting with stat
+10/12/2021 07:26:25  * Debugger is active!
+10/12/2021 07:26:25  * Debugger PIN: 937-685-206
+10/12/2021 07:26:26  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:26:29 127.0.0.1 - - [10/Dec/2021 07:26:29] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 Multiplication operation performed
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:26:40 127.0.0.1 - - [10/Dec/2021 07:26:40] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:28:56  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:28:56  * Restarting with stat
+10/12/2021 07:28:57  * Debugger is active!
+10/12/2021 07:28:57  * Debugger PIN: 937-685-206
+10/12/2021 07:28:58  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:29:10  * Restarting with stat
+10/12/2021 07:29:12  * Debugger is active!
+10/12/2021 07:29:12  * Debugger PIN: 937-685-206
+10/12/2021 07:29:13  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:29:15 127.0.0.1 - - [10/Dec/2021 07:29:15] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:16 127.0.0.1 - - [10/Dec/2021 07:29:16] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:29:26 Multiplication operation performed
+10/12/2021 07:29:26 127.0.0.1 - - [10/Dec/2021 07:29:26] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:29:26 127.0.0.1 - - [10/Dec/2021 07:29:26] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:29:27 127.0.0.1 - - [10/Dec/2021 07:29:27] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:15  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:32:15  * Restarting with stat
+10/12/2021 07:32:17  * Debugger is active!
+10/12/2021 07:32:17  * Debugger PIN: 937-685-206
+10/12/2021 07:32:18  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:32:23  * Restarting with stat
+10/12/2021 07:32:25  * Debugger is active!
+10/12/2021 07:32:25  * Debugger PIN: 937-685-206
+10/12/2021 07:32:26  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:32:28 127.0.0.1 - - [10/Dec/2021 07:32:28] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 Multiplication operation performed
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:32:38 127.0.0.1 - - [10/Dec/2021 07:32:38] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:34:06  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:34:06  * Restarting with stat
+10/12/2021 07:34:08  * Debugger is active!
+10/12/2021 07:34:08  * Debugger PIN: 937-685-206
+10/12/2021 07:34:12  * Restarting with stat
+10/12/2021 07:34:14  * Debugger is active!
+10/12/2021 07:34:14  * Debugger PIN: 937-685-206
+10/12/2021 07:34:14  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:34:18 127.0.0.1 - - [10/Dec/2021 07:34:18] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 Multiplication operation performed
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:27 127.0.0.1 - - [10/Dec/2021 07:34:27] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:34:28 127.0.0.1 - - [10/Dec/2021 07:34:28] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:28 127.0.0.1 - - [10/Dec/2021 07:34:28] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:28 127.0.0.1 - - [10/Dec/2021 07:34:28] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:34:28 127.0.0.1 - - [10/Dec/2021 07:34:28] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:34:28 127.0.0.1 - - [10/Dec/2021 07:34:28] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:20  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:35:20  * Restarting with stat
+10/12/2021 07:35:29  * Restarting with stat
+10/12/2021 07:35:31  * Debugger is active!
+10/12/2021 07:35:31  * Debugger PIN: 937-685-206
+10/12/2021 07:35:31  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:34 127.0.0.1 - - [10/Dec/2021 07:35:34] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:35 127.0.0.1 - - [10/Dec/2021 07:35:35] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:35:35 127.0.0.1 - - [10/Dec/2021 07:35:35] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:35 127.0.0.1 - - [10/Dec/2021 07:35:35] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:35 127.0.0.1 - - [10/Dec/2021 07:35:35] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:35 127.0.0.1 - - [10/Dec/2021 07:35:35] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:35:35 127.0.0.1 - - [10/Dec/2021 07:35:35] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 Multiplication operation performed
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:35:44 127.0.0.1 - - [10/Dec/2021 07:35:44] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:43  * Restarting with stat
+10/12/2021 07:49:44  * Debugger is active!
+10/12/2021 07:49:44  * Debugger PIN: 937-685-206
+10/12/2021 07:49:45  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:49:48 127.0.0.1 - - [10/Dec/2021 07:49:48] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 Multiplication operation performed
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:50:00 127.0.0.1 - - [10/Dec/2021 07:50:00] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:51:51  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:51:51  * Restarting with stat
+10/12/2021 07:51:53  * Debugger is active!
+10/12/2021 07:51:53  * Debugger PIN: 937-685-206
+10/12/2021 07:51:54  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:52:09  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:52:09  * Restarting with stat
+10/12/2021 07:52:10  * Debugger is active!
+10/12/2021 07:52:10  * Debugger PIN: 937-685-206
+10/12/2021 07:52:11  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:52:19  * Restarting with stat
+10/12/2021 07:52:21  * Debugger is active!
+10/12/2021 07:52:21  * Debugger PIN: 937-685-206
+10/12/2021 07:52:22  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 07:52:33 127.0.0.1 - - [10/Dec/2021 07:52:33] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 07:55:16  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\classes\\Claculation.py', reloading
+10/12/2021 07:55:16  * Restarting with stat
+10/12/2021 07:55:18  * Debugger is active!
+10/12/2021 07:55:18  * Debugger PIN: 937-685-206
+10/12/2021 07:55:18  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 09:25:44  * Restarting with stat
+10/12/2021 09:25:46  * Debugger is active!
+10/12/2021 09:25:46  * Debugger PIN: 937-685-206
+10/12/2021 09:25:46  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:25:49 127.0.0.1 - - [10/Dec/2021 09:25:49] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 Addion operation performed
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:25:57 127.0.0.1 - - [10/Dec/2021 09:25:57] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:04 Subtraction operation performed
+10/12/2021 09:26:04 127.0.0.1 - - [10/Dec/2021 09:26:04] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 09:26:04 127.0.0.1 - - [10/Dec/2021 09:26:04] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 09:26:04 127.0.0.1 - - [10/Dec/2021 09:26:04] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:04 127.0.0.1 - - [10/Dec/2021 09:26:04] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:26:05 127.0.0.1 - - [10/Dec/2021 09:26:05] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 Multiplication operation performed
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:26:12 127.0.0.1 - - [10/Dec/2021 09:26:12] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 Division operation performed
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[32mPOST /calculator HTTP/1.1[0m" 302 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "GET /calculator HTTP/1.1" 200 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:26:26 127.0.0.1 - - [10/Dec/2021 09:26:26] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:48:08  * Detected change in 'e:\\sagar\\pythonprojects\\sandeepaflask\\app.py', reloading
+10/12/2021 09:48:08  * Restarting with stat
+10/12/2021 09:48:10  * Debugger is active!
+10/12/2021 09:48:10  * Debugger PIN: 937-685-206
+10/12/2021 09:48:10  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 09:50:34  * Restarting with stat
+10/12/2021 09:50:36  * Debugger is active!
+10/12/2021 09:50:36  * Debugger PIN: 937-685-206
+10/12/2021 09:50:37  * Running on http://127.0.0.1:5000/ (Press CTRL+C to quit)
+10/12/2021 09:50:42 127.0.0.1 - - [10/Dec/2021 09:50:42] "GET /index HTTP/1.1" 200 -
+10/12/2021 09:50:42 127.0.0.1 - - [10/Dec/2021 09:50:42] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:42 127.0.0.1 - - [10/Dec/2021 09:50:42] "[33mGET /static/css/all.ccs HTTP/1.1[0m" 404 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/js/jquery.easing.min.js HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/js/scrollspy.min.js HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/js/script.js HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "GET /static/css/custom.css HTTP/1.1" 200 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "GET /static/js/jquery.min.js HTTP/1.1" 200 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "GET /static/css/newsletter.css HTTP/1.1" 200 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "GET /static/css/styles.css HTTP/1.1" 200 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/assets/stephen.JPG HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/assets/prjlogo.jpg HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/assets/mark.jpg HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[36mGET /static/assets/Algore.JPG HTTP/1.1[0m" 304 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:44 127.0.0.1 - - [10/Dec/2021 09:50:44] "[35m[1mGET /static/assets/hero_vedio.mp4 HTTP/1.1[0m" 206 -
+10/12/2021 09:50:46 127.0.0.1 - - [10/Dec/2021 09:50:46] "[35m[1mGET /static/assets/hero_vedio.mp4 HTTP/1.1[0m" 206 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "GET /result HTTP/1.1" 200 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:50:53 127.0.0.1 - - [10/Dec/2021 09:50:53] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "GET /result HTTP/1.1" 200 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /css/styles.css HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /css/custom.css HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /css/newsletter.css HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/jquery.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/bootstrap.bundle.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/scrollspy.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/jquery.easing.min.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/script.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /assets/prjlogo.jpg HTTP/1.1[0m" 404 -
+10/12/2021 09:54:00 127.0.0.1 - - [10/Dec/2021 09:54:00] "[33mGET /js/scripts.js HTTP/1.1[0m" 404 -
